@@ -7,7 +7,7 @@ from markers import *
 from lab3functions import *
 
 rospy.init_node("testForwardKinematics")
-pub = rospy.Publisher('joint_states', JointState, queue_size=1000)
+pub = rospy.Publisher('joint_states', JointState, queue_size=1)
 bmarker = BallMarker(color['GREEN'])
 
 # Joint names
