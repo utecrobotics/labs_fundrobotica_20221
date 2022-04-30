@@ -28,7 +28,7 @@ jstate.name = jnames
 jstate.position = q
 
 # Loop rate (in Hz)
-rate = rospy.Rate(100)
+rate = rospy.Rate(20)
 # Continuous execution loop
 while not rospy.is_shutdown():
     # Current time (needed for ROS)
